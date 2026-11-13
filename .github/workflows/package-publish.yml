@@ -2,6 +2,8 @@ name: Publish sqlglot to PyPI
 
 on:
   push:
+    branches:
+      - ci
     tags:
       - "v*"
 
